@@ -25,6 +25,9 @@ footer {
 
 main{
     flex-direction: column;
+    row-gap: 10px;
+    overflow: scroll;
+    justify-content: flex-start;
 }
 
 footer{
@@ -32,17 +35,17 @@ footer{
 }
 
 #arti1{
-height: 200px;
+height: auto;
 width: 100%;
 background-color: brown;
 }
 #arti2{
-    height: 200px;
+    height: auto;
     width: 100%;
     background-color: cadetblue;
 }
 #arti3{
-    height: 200px;
+    height: auto;
     width: 100%;
     background-color: chocolate;
 }

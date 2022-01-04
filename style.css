@@ -46,3 +46,7 @@ background-color: brown;
     width: 100%;
     background-color: chocolate;
 }
+
+.containerfoot{
+    background-color: rgba(108, 122, 137, .2);
+}

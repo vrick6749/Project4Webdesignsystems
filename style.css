@@ -12,11 +12,16 @@
     text-align: center;
     
 }
+#firstcolorblock{
+    width: auto;
+    min-height: 300px;
+    background-color: rgba(192, 164, 164, .5);
+}
 #firstcont h1{
     padding-top: 100px;
     font-family: 'Raleway', sans-serif;
     text-shadow: -2px 0 rgb(247, 232, 232), 0 2px black, 2px 0 black, 0 -2px black;
-    color: rgb(201, 200, 206);
+    color: rgb(38, 157, 212);
     font-size: 50px;
 }
 

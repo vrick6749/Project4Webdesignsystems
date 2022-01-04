@@ -5,8 +5,13 @@
 
 #firstcont{
     min-height: 300px;
-    width: 300px;
-    background-color: brown;
+    width: auto;
+    background-image: url('resources\images\laura-adai-xSMIuUDMMSY-unsplash.jpg');
+    text-align: center;
+    
+}
+#firstcont h1{
+    padding-top: 100px;
 }
 
 #secondcont{

@@ -6,12 +6,18 @@
 #firstcont{
     min-height: 300px;
     width: auto;
-    background-image: url('resources\images\laura-adai-xSMIuUDMMSY-unsplash.jpg');
+    background-image: url('/resources/images/laura-adai-xSMIuUDMMSY-unsplash.jpg');
+    background-size:cover;
+    background-position: center;
     text-align: center;
     
 }
 #firstcont h1{
     padding-top: 100px;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: -2px 0 rgb(247, 232, 232), 0 2px black, 2px 0 black, 0 -2px black;
+    color: rgb(201, 200, 206);
+    font-size: 50px;
 }
 
 #secondcont{

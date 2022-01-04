@@ -34,13 +34,15 @@
     background-color: burlywood;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    justify-content: center;
 
 }
 
 
 
 .firstarticle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 1fr;
     width: auto;
     background-color: turquoise;
@@ -48,7 +50,9 @@
 }
 
 .secondarticle{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 1fr;
     width: auto;
     background-color: violet;
@@ -56,6 +60,9 @@
 
 
 .thirdarticle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height:1fr;
     width: auto;
     background-color:lawngreen;

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+firstcont{
+    min-height: 300px;
+    width: auto;
+}
+
+secondtcont{
+    min-height: 300px;
+    width: auto;
+}
+
+thirdcont{
+    min-height: 300px;
+    width: auto;
+}

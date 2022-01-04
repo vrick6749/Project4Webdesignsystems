@@ -22,3 +22,27 @@ footer {
   align-items: center;
   justify-content: center;
 } 
+
+main{
+    flex-direction: column;
+}
+
+footer{
+    background-color: rgb(20, 18, 18);
+}
+
+#arti1{
+height: 200px;
+width: 100%;
+background-color: brown;
+}
+#arti2{
+    height: 200px;
+    width: 100%;
+    background-color: cadetblue;
+}
+#arti3{
+    height: 200px;
+    width: 100%;
+    background-color: chocolate;
+}

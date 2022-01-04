@@ -2,6 +2,23 @@
     margin: 0;
     padding: 0;
 }
-.body-container{
-    height: 100%;
+body{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 10vw 30vw 10vw;
+    grid-gap: 1em;
 }
+header,
+footer {
+  grid-column: 1 / span 2;
+}
+
+header,
+main,
+aside,
+footer {
+  background: #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 

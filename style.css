@@ -5,34 +5,3 @@
 .body-container{
     height: 100%;
 }
-#firstcont{
-    min-height: 300px;
-    width: auto;
-    background-image: url('/resources/images/laura-adai-xSMIuUDMMSY-unsplash.jpg');
-    background-size:cover;
-    background-position: center;
-    text-align: center;
-    box-shadow: 0px 5px 2px 1px rgba(0, 0, 255, .2);
-}
-#firstcolorblock{
-    width: auto;
-    min-height: 300px;
-    background-color: rgba(192, 164, 164, .5);
-}
-#firstcont h1{
-    padding-top: 100px;
-    font-family: 'Raleway', sans-serif;
-    text-shadow: -2px 0 rgb(247, 232, 232), 0 2px black, 2px 0 black, 0 -2px black;
-    color: rgb(40, 97, 155);
-    font-size: 50px;
-}
-
-#secondcont{
-    margin-top: 5px;
-    min-height: 600px;
-    width: auto;
-    background-color: burlywood;
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-
-}

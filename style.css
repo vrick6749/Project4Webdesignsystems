@@ -7,6 +7,7 @@ body{
     grid-template-columns: 75% 25%;
     grid-template-rows: 10vw 30vw 10vw;
     grid-gap: 1em;
+    background-color: blanchedalmond;
 }
 header,
 footer {
@@ -22,18 +23,38 @@ footer {
   align-items: center;
   justify-content: center;
 } 
-
+header{
+    font-family: 'Roboto Slab', serif;
+    background-image: url('/resources/images/background-tile.jfif');
+    background-repeat: none;
+    background-size: cover;
+}
 main{
     flex-direction: column;
     row-gap: 10px;
     overflow: scroll;
     justify-content: flex-start;
 }
-
+aside{
+    background-image: url('/resources/images/side-panel.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 footer{
     background-color: rgb(20, 18, 18);
 }
 
+#wizzart{
+    border: black solid 2px;
+    background-color: rgb(255, 253, 208, .4);
+    border-radius: 4px;
+}
+#wizzart h1{
+    padding: 3px;
+    font-size: 50px;
+    
+}
 #arti1{
 height: auto;
 width: 100%;

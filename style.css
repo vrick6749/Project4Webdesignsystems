@@ -28,13 +28,17 @@ header{
     background-image: url('/resources/images/background-tile.jfif');
     background-repeat: none;
     background-size: cover;
+    border-bottom: solid black 4px;
 }
 main{
     flex-direction: column;
     row-gap: 10px;
     overflow: auto;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     background-color: blanchedalmond;
+    border: solid black 2px;
+    border-radius: 4px;
+    margin-left: 10px;
 }
 aside{
     background-image: url('/resources/images/side-panel.jfif');
@@ -44,8 +48,13 @@ aside{
 }
 footer{
     background-color: blanchedalmond;
+    
 }
 
+main article{
+    border:solid black 2px;
+    padding: 5px;
+}
 #wizzart{
     border: black solid 2px;
     background-color: rgb(255, 253, 208, .4);
@@ -57,18 +66,19 @@ footer{
     
 }
 #arti1{
+margin-top: 4px;
 height: auto;
-width: 100%;
+width: 80%;
 background-color: brown;
 }
 #arti2{
     height: auto;
-    width: 100%;
+    width: 80%;
     background-color: cadetblue;
 }
 #arti3{
     height: auto;
-    width: 100%;
+    width: 80%;
     background-color: chocolate;
 }
 

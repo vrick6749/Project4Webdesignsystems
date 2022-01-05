@@ -36,7 +36,7 @@ main{
     overflow: auto;
     justify-content: space-evenly;
     background-color: blanchedalmond;
-    border: solid black 2px;
+    border: solid black 4px;
     border-radius: 4px;
     margin-left: 10px;
 }
@@ -45,6 +45,9 @@ aside{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border: solid black 4px;
+    margin-right: 20px;
+    border-radius: 6px;
 }
 footer{
     background-color: blanchedalmond;
@@ -52,13 +55,13 @@ footer{
 }
 
 main article{
-    border:solid black 2px;
+    border:solid azure 4px;
     padding: 5px;
 }
 #wizzart{
-    border: black solid 2px;
+    border: black solid 4px;
     background-color: rgb(255, 253, 208, .4);
-    border-radius: 4px;
+    border-radius: 6px;
 }
 #wizzart h1{
     padding: 3px;

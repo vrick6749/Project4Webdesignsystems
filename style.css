@@ -32,8 +32,9 @@ header{
 main{
     flex-direction: column;
     row-gap: 10px;
-    overflow: scroll;
+    overflow: auto;
     justify-content: flex-start;
+    background-color: blanchedalmond;
 }
 aside{
     background-image: url('/resources/images/side-panel.jfif');
@@ -42,7 +43,7 @@ aside{
     background-size: cover;
 }
 footer{
-    background-color: rgb(20, 18, 18);
+    background-color: blanchedalmond;
 }
 
 #wizzart{
@@ -71,6 +72,4 @@ background-color: brown;
     background-color: chocolate;
 }
 
-.containerfoot{
-    background-color: rgba(108, 122, 137, .2);
-}
+
